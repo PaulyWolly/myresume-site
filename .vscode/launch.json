@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "php",
+            "request": "launch",
+            "name": "Run using local PHP Interpreter",
+            "program": "${file}",
+            "runtimeExecutable": "C:\\xampp\\php\\php.exe"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "http://127.0.0.1:3000/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/index.html"
+        }
+    ]
+}
